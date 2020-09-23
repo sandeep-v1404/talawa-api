@@ -6,6 +6,12 @@
 Welcome to the Talawa API documentation!
 ========================================
 
+The Talawa API provides general administration services and data management for the Talawa mobile application.
+
+Users
+-----
+
+User guides for the project, including the the prerequisite steps to get it operational on your system.
 
 .. toctree::
    :maxdepth: 2
@@ -17,8 +23,18 @@ Welcome to the Talawa API documentation!
    organizations
    membership
    administration
-   
 
+Developers
+----------
+
+Information needed for coders wanting to contribute to our project.
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Developers:
+
+  contributing
+  maintainers
 
 Indices and tables
 ==================
