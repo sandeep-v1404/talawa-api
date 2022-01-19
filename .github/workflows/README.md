@@ -6,6 +6,10 @@ Follow these guidelines when contributing to this directory.
 
 Any changes to files in this directory are flagged when pull requests are run. Make changes only on the advice of a contributor.
 
+## General
+
+Any changes to files in this directory are flagged when pull requests are run. Make changes only on the advice of a contributor.
+
 ## YAML Workflow Files
 
 The YAML files in this directory have very specific roles depending on the type of workflow.
