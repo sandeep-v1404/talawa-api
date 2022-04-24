@@ -15,6 +15,11 @@ const ORGANIZATION_NOT_FOUND_MESSAGE = 'organization.notFound';
 const ORGANIZATION_NOT_FOUND_CODE = 'organization.notFound';
 const ORGANIZATION_NOT_FOUND_PARAM = 'organization';
 
+const COMMENT_NOT_FOUND = 'Comment not found';
+const COMMENT_NOT_FOUND_MESSAGE = 'comment.notFound';
+const COMMENT_NOT_FOUND_CODE = 'comment.notFound';
+const COMMENT_NOT_FOUND_PARAM = 'comment';
+
 const IN_PRODUCTION = process.env.NODE_ENV === 'production';
 
 if (process.env.NODE_ENV === 'test') {
@@ -39,4 +44,9 @@ module.exports = {
   ORGANIZATION_NOT_FOUND_MESSAGE,
   ORGANIZATION_NOT_FOUND_CODE,
   ORGANIZATION_NOT_FOUND_PARAM,
+
+  COMMENT_NOT_FOUND,
+  COMMENT_NOT_FOUND_MESSAGE,
+  COMMENT_NOT_FOUND_CODE,
+  COMMENT_NOT_FOUND_PARAM,
 };
